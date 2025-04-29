@@ -1,0 +1,38 @@
+.about-box {
+	padding: 40px;
+	background: rgba(21, 25, 119, 0.53);
+	backdrop-filter: blur(6px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 32px;
+	position: relative;
+	top: -40px;
+	border: 2px solid #d022d8;
+	font-family: 'Futura URW';
+	color: #D8CEDC;
+}
+
+.abt-img img { position: relative; top: -30px; }
+
+.about-box .header-1 h2 {
+	margin: 0;
+	padding: 0 0 30px 0;
+	font-family: 'Begex';
+	font-weight: 400;
+	font-size: 40px;
+	color: #D8CEDC;
+}
+
+.about-box h4 {
+	margin: 0;
+	padding: 0 0 15px 0;
+	font-family: 'Futura Book';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FF00FB;
+}
+
+.about-box .btn-primary {
+	font-family: 'Begex';
+	padding: 10px 30px !important;	
+}

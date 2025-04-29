@@ -1,0 +1,27 @@
+.product-shortview {
+    border-radius: 5px;
+    position: relative;
+    min-height: 300px;
+
+    .photo {
+        width: calc(100% - 20px);
+        background: black;
+        border-radius: 10px;
+    }
+
+    .brand {
+        color: white;
+        font-size: 30px;
+    }
+
+    .description {
+        color: white;
+    }
+    .nft-video{
+        border-radius: var(--chakra-radii-md);
+        transition-property: transform;
+        transition-duration: var(--chakra-transition-duration-normal);
+        transition-timing-function: ease;
+        cursor: pointer;
+    }
+}
