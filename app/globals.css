@@ -7,12 +7,12 @@
 
 
 :root {
-	--primary-color   : #ADD8E6;
-	--secondary-color : red;
-	--third-color     : yellow;
-	--green-color			: green;
+	--primary-color   : #2196F3;
+	--secondary-color : #F44336;
+	--third-color     : #FFC107;
+	--green-color			: #8BC34A;
 	--violet-color	  : #9515f8;
-	--green-bg				: lightgreen;
+	--green-bg				: #ddf8e2;
 	--lightblue-color : #B9BCFF;
 }
 
@@ -36,6 +36,7 @@ body {
 
 .main-layout {
 	width: 100%;
+  min-height: 100vh;
 }
 
 .sidebar-section {
@@ -104,49 +105,49 @@ body {
 
 .btn-primary {
 	background-color: var(--primary-color);
-	border: 2px solid #4682B4;
+	border: 4px solid #1976D2;
 	border-radius: 10px;
 	padding: 10px;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #87CEEB; 
-  border-color: #4682B4;
+  background-color: #1E88E5; 
+  border-color: #1565C0;
   cursor: pointer;
 }
 
 .btn-secondary {
 	background-color: var(--secondary-color);
-	border: 2px solid #CC0000;
+	border: 4px solid #D32F2F;
 	border-radius: 10px;
 	padding: 10px;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-secondary:hover {
-  background-color: #FF7F7F; 
-  border-color: #CC0000;
+  background-color: #E53935; 
+  border-color: #B71C1C;
   cursor: pointer;
 }
 
 .btn-third {
   background-color: var(--third-color);
-  border: 2px solid #FFC107;
+  border: 4px solid #FFA000;
   border-radius: 10px;
   padding: 10px;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-third:hover {
-  background-color: #FFEB3B;
-  border-color: #FFC107;
+  background-color: #FFB300;
+  border-color: #FF8F00;
   cursor: pointer;
 }
 
 .btn-green {
   background-color: var(--green-color);
-  border: 2px solid #006400;
+  border: 4px solid #689F38;
   border-radius: 10px;
   padding: 10px;
   width: 100%;
@@ -154,7 +155,7 @@ body {
 }
 
 .btn-green:hover {
-  background-color: #7CFC00;
-  border-color: #006400;
+  background-color: #7CB342;
+  border-color: #558B2F;
   cursor: pointer;
 }
